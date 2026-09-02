@@ -1,0 +1,31 @@
+# Ignore everything by default (repo was initialized in a home directory)
+/*
+
+# Allow project files
+!/.gitignore
+!/README.md
+!/project.md
+!/backend/
+!/frontend/
+
+# --- ForenSight ---
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+backend/data/
+
+# Node
+node_modules/
+frontend/dist/
+*.local
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
